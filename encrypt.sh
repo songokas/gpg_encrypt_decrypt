@@ -77,4 +77,4 @@ else
     print_usage
 fi
 
-encrypt_folder_recurse "$ENCRYPT_PATH" "$OUTPUT_PATH" "$ENCRYPT_PATH" "$SKIP" "$RECIPIENT"!
+encrypt_folder_recurse "$ENCRYPT_PATH" "$OUTPUT_PATH" "$ENCRYPT_PATH" "$SKIP" "$RECIPIENT"
