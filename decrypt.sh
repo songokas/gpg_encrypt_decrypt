@@ -48,7 +48,7 @@ decrypt_folder_recurse() {
                 echo -e "${YELLOW}Skipping ${GREY}$i ${YELLOW}since it exists ${GREY}$file${NC}"
             else
                 echo -e "${GREEN}Decrypting file ${YELLOW}$i ${GREEN}to ${YELLOW}$file${NC}"
-                gpg --recipient "$5" --sign --output "$file" --encrypt "$i"
+                gpg --output "$file" --decrypt "$i"
             fi
         fi
     done
